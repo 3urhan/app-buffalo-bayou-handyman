@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
           <div className="relative h-full min-h-[500px]">
             <div className="absolute inset-0 bg-navy-900 translate-x-4 translate-y-4"></div>
             <img 
-              src="/why-us.jpg" 
+              src={`${import.meta.env.BASE_URL}why-us.jpg`} 
               alt="Licensed handyman at work in Houston home" 
               className="absolute inset-0 w-full h-full object-cover z-10"
             />

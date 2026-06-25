@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-navy-900">
       <div className="absolute inset-0">
-        <img src="/hero.jpg" alt="Professional handyman at work" className="w-full h-full object-cover opacity-30 mix-blend-overlay grayscale" />
+        <img src={`${import.meta.env.BASE_URL}hero.jpg`} alt="Professional handyman at work" className="w-full h-full object-cover opacity-30 mix-blend-overlay grayscale" />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-900 via-navy-900/90 to-transparent" />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 w-full border-l-4 border-orange-500 ml-4 sm:ml-8 lg:ml-12 pl-6 sm:pl-10">
